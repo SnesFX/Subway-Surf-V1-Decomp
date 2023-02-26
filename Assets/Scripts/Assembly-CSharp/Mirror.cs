@@ -14,8 +14,8 @@ public class Mirror : MonoBehaviour
 		trackObject = GetComponent<TrackObject>() ?? base.gameObject.AddComponent<TrackObject>();
 		TrackObject obj = trackObject;
 		obj.OnActivate = (TrackObject.OnActivateDelegate)Delegate.Combine(obj.OnActivate, new TrackObject.OnActivateDelegate(OnActivate));
-		children = new Transform[base.transform.GetChildCount()];
-		for (int i = 0; i < base.transform.GetChildCount(); i++)
+		children = new Transform[base.transform.childCount];
+		for (int i = 0; i < base.transform.childCount; i++)
 		{
 			children[i] = base.transform.GetChild(i);
 		}
