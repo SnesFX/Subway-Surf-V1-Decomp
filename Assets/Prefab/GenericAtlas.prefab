@@ -1,0 +1,362 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1700609646197713}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1700609646197713
+GameObject:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4142738414008455}
+  - 114: {fileID: 114319568115701630}
+  m_Layer: 0
+  m_Name: GenericAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4142738414008455
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1700609646197713}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114319568115701630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1700609646197713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  material: {fileID: 2100000, guid: a6419c08c71a4e444b755d99610080c6, type: 2}
+  sprites:
+  - name: glow_inner
+    outer:
+      serializedVersion: 2
+      x: 216
+      y: 122
+      width: 29
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 217
+      y: 123
+      width: 27
+      height: 27
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: background_glow
+    outer:
+      serializedVersion: 2
+      x: 211
+      y: 93
+      width: 24
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 215
+      y: 97
+      width: 12
+      height: 10
+    paddingLeft: 0.8333333
+    paddingRight: 0.6666667
+    paddingTop: 0.875
+    paddingBottom: 0.625
+  - name: whitebox3x3
+    outer:
+      serializedVersion: 2
+      x: 140
+      y: 6
+      width: 3
+      height: 3
+    inner:
+      serializedVersion: 2
+      x: 141
+      y: 7
+      width: 1
+      height: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: metal_spiral_lo
+    outer:
+      serializedVersion: 2
+      x: 181
+      y: 50
+      width: 18
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 181
+      y: 50
+      width: 18
+      height: 38
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: metal_spiral_hi
+    outer:
+      serializedVersion: 2
+      x: 181
+      y: 180
+      width: 36
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 181
+      y: 180
+      width: 36
+      height: 76
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_poke_lo
+    outer:
+      serializedVersion: 2
+      x: 45
+      y: 4
+      width: 37
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 45
+      y: 4
+      width: 37
+      height: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_poke_hi
+    outer:
+      serializedVersion: 2
+      x: 181
+      y: 152
+      width: 74
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 181
+      y: 152
+      width: 74
+      height: 27
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.037037037
+    paddingBottom: 0
+  - name: icon_zzz_lo
+    outer:
+      serializedVersion: 2
+      x: 236
+      y: 103
+      width: 15
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 236
+      y: 103
+      width: 15
+      height: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_zzz_hi
+    outer:
+      serializedVersion: 2
+      x: 181
+      y: 89
+      width: 29
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 181
+      y: 89
+      width: 29
+      height: 28
+    paddingLeft: 0
+    paddingRight: 0.03448276
+    paddingTop: 0
+    paddingBottom: 0
+  - name: menu_decal8
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 19
+      width: 180
+      height: 237
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 19
+      width: 180
+      height: 237
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0.042194095
+    paddingBottom: 0.029535865
+  - name: LilitaRomanSD
+    outer:
+      serializedVersion: 2
+      x: 140
+      y: 10
+      width: 27
+      height: 8
+    inner:
+      serializedVersion: 2
+      x: 140
+      y: 10
+      width: 27
+      height: 8
+    paddingLeft: 0.074074075
+    paddingRight: 1.2962962
+    paddingTop: 0.25
+    paddingBottom: 6.75
+  - name: LilitaRomanHD
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 2
+      width: 44
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 2
+      width: 44
+      height: 16
+    paddingLeft: 0.045454547
+    paddingRight: 0.4090909
+    paddingTop: 0.125
+    paddingBottom: 2.875
+  - name: icon_medal_bronze_hi
+    outer:
+      serializedVersion: 2
+      x: 218
+      y: 223
+      width: 34
+      height: 33
+    inner:
+      serializedVersion: 2
+      x: 218
+      y: 223
+      width: 34
+      height: 33
+    paddingLeft: 0.029411765
+    paddingRight: 0.029411765
+    paddingTop: 0.030303031
+    paddingBottom: 0.060606062
+  - name: icon_medal_bronze_lo
+    outer:
+      serializedVersion: 2
+      x: 83
+      y: 1
+      width: 18
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 83
+      y: 1
+      width: 18
+      height: 17
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.05882353
+  - name: icon_medal_gold_lo
+    outer:
+      serializedVersion: 2
+      x: 102
+      y: 1
+      width: 18
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 102
+      y: 1
+      width: 18
+      height: 17
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.05882353
+  - name: icon_medal_silver_hi
+    outer:
+      serializedVersion: 2
+      x: 181
+      y: 118
+      width: 34
+      height: 33
+    inner:
+      serializedVersion: 2
+      x: 181
+      y: 118
+      width: 34
+      height: 33
+    paddingLeft: 0.029411765
+    paddingRight: 0.029411765
+    paddingTop: 0.030303031
+    paddingBottom: 0.060606062
+  - name: icon_medal_silver_lo
+    outer:
+      serializedVersion: 2
+      x: 121
+      y: 1
+      width: 18
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 121
+      y: 1
+      width: 18
+      height: 17
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0.05882353
+  - name: icon_medal_gold_hi
+    outer:
+      serializedVersion: 2
+      x: 218
+      y: 189
+      width: 34
+      height: 33
+    inner:
+      serializedVersion: 2
+      x: 218
+      y: 189
+      width: 34
+      height: 33
+    paddingLeft: 0.029411765
+    paddingRight: 0.029411765
+    paddingTop: 0.030303031
+    paddingBottom: 0.060606062
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}

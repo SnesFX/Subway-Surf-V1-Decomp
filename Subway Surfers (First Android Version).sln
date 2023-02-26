@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subway Surfers (First Android Version)", "Assembly-CSharp.csproj", "{4BF5E23A-B8CA-4BAA-431A-08F6542AAEB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subway Surfers (First Android Version)", "Assembly-CSharp-firstpass.csproj", "{080B1F5C-7802-0448-DB67-7BCD39D60721}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BF5E23A-B8CA-4BAA-431A-08F6542AAEB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF5E23A-B8CA-4BAA-431A-08F6542AAEB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF5E23A-B8CA-4BAA-431A-08F6542AAEB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF5E23A-B8CA-4BAA-431A-08F6542AAEB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{080B1F5C-7802-0448-DB67-7BCD39D60721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{080B1F5C-7802-0448-DB67-7BCD39D60721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{080B1F5C-7802-0448-DB67-7BCD39D60721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{080B1F5C-7802-0448-DB67-7BCD39D60721}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
